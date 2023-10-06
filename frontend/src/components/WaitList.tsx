@@ -23,7 +23,7 @@ const WaitList = () => {
 								placeholder="Enter your email"
 								className="w-[300px] lg:w-40 xl:w-2/4 p-2 h-13 text-lg py-3 mr-3 mb-2"
 							/>
-							<button className="bg-primary text-white text-xl p-[12px] px-[20px] rounded-md mb-2">
+							<button className="bg-primary text-white text-xl p-[10px] px-[20px] rounded-md mb-2">
 								Notify me
 							</button>
 						</div>

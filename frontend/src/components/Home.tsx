@@ -2,7 +2,7 @@ import phone from "../assets/home_image.png";
 
 const Home = () => {
 	return (
-		<div className="home mt-10 mb-28" id="home">
+		<div className="home mb-28" id="home">
 			<div className="section lg:flex lg:justify-center xl:flex xl:justify-center">
 				<div className="xl:max-w-[55%] lg:max-w-[55%] max-w-[100%]">
 					<p className="main lg:text-[60px] text-[50px] font-extrabold leading-[70px] mb-5">
@@ -21,9 +21,9 @@ const Home = () => {
 								<input
 									type="text"
 									placeholder="Enter your email"
-									className="w-[300px] lg:w-2/4 xl:w-2/4 p-2 text-lg py-3 mr-3 mb-2"
+									className="w-[300px] lg:w-2/4 xl:w-2/4 p-2 text-lg py-3 mr-3 mb-2 h-12"
 								/>
-								<button className="bg-primary text-white text-xl p-[12px] px-[20px] rounded-md">
+								<button className="bg-primary text-white text-xl p-[10px] px-[20px] rounded-md">
 									Join waitlist
 								</button>
 								<p className="text-[16px] text-dark">
