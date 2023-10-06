@@ -37,14 +37,14 @@ const NavBar = () => {
 					</div>
 				</div>
 				<div
-					className={`links-div md:flex items-center justify-around md:pb-0 absolute md:static left-0 w-full md:w-auto mt-0 md:mt-0 md:pl-0 pl-9 bg-white shadow-lg md:shadow-none pb-4 p-5 transition-all duration-500 ease-in ${
+					className={`links-div md:flex items-center justify-center md:pb-0 absolute md:static left-0 w-full md:w-auto mt-0 md:mt-0 md:pl-0 pl-9 bg-white shadow-lg md:shadow-none pb-4 p-5 transition-all duration-500 ease-in ${
 						open ? "top-14" : "top-[-490px]"
 					}`}
 				>
 					{links.map((link) => (
 						<li
-							className={`md:my-0 font-medium pb-5 text-[20px] w-20 list-none ${
-								link.name === "How It Works" ? "min-w-[150px]" : ""
+							className={`md:my-0 font-medium ml-5 pb-5 text-[18px] w-20 list-none ${
+								link.name === "How It Works" ? "min-w-[120px]" : ""
 							}`}
 							key={link.name}
 						>

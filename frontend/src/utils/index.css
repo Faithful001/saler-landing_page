@@ -6,15 +6,9 @@ html {
 	font-family: "Cabin", sans-serif;
 }
 
-.navbar {
-	/* margin: 50px; */
-	margin-top: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
 .home {
 	margin: 50px;
+	margin-top: 100px;
 	/* margin-left: 50px;
 	margin-right: 50px; */
 }
@@ -60,7 +54,9 @@ html {
 	margin-top: 0px;
 	padding: 12px;
 	width: 100%;
+	margin-top: -10px;
 	margin-left: 0px;
+	margin-bottom: 5px;
 }
 
 @media screen and (max-width: 400px) {
