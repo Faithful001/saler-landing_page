@@ -6,7 +6,7 @@ const NavBar = () => {
 		{ name: "Features", link: "features" },
 		{ name: "How It Works", link: "howitworks" },
 		{ name: "Gallery", link: "gallery" },
-		{ name: "Pricing", link: "Pricing" },
+		{ name: "Pricing", link: "pricing" },
 	];
 
 	// const [hamburger, setHamburger] = useState<boolean>(true);
